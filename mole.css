@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c0c86d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*width: 100vw;*/
+}
+
+.bg {
+    cursor: url(./Images/cursor.png), default;
+    background-image: url(./Images/background.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hole {
+    background-color: #000000;
+    border-radius: 50%;
+    overflow: visible;
+    width: 267px;
+    height: 267px;
+}
+
+.hole-container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mole {
+    position: relative;
+    right: 30px;
+}
+
+.hungry {
+    cursor: url(./Images/cursor-worm.png), default;
+}
+
+.gone {
+    display: none;
+}
+
+.hide {
+    display: none;
+    cursor: grab;
+}
+
+ .win h1 {
+    color: darkgreen;
+    text-align: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+} 
+
+.win img {
+    margin: 0;
+   /* border: px solid darkred ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.win a {
+    color: black;
+    font-size: 3rem ;
+    text-align: center;
+    align-items: center;
+}
+
+.worm {
+    width: 1660px;
+}
+
+.worm-container {
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+}
+
+.worm-box {
+    width: 1660px;
+}
